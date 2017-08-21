@@ -1,0 +1,89 @@
+
+/**************Basic Styles*******************/
+*{
+	box-sizing: border-box;
+}
+
+h1{
+	font-size: 0.75em;
+}
+
+div.container {
+	position: relative;
+	margin: 20px;
+	border: solid black 1px;
+	background-color: #e6e6e6;
+}
+
+.mytitle{
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: solid black 1px;
+	font-size: 0.25em;
+
+}
+
+.row{
+	width: 100%;
+}
+
+p{
+	padding: : 10px;
+}
+
+.chicken{
+	background-color: #ffbf80;
+}
+.beef{
+	background-color: #b3ecff;
+}
+.shushi{
+	background-color: #b3ffd9;
+}
+
+/**************** Large Screens **************/
+@media (min-width: 992px){
+		.col-lg-4{
+			float: left;
+			width: 33.33%;
+		}
+}
+
+
+
+/**************Medium Screens ****************/
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-6{
+			float: left;
+			width: 50%;
+		}
+
+	.col-md-12{
+			width: 100%;
+		}
+
+}
+
+
+/****************Small Screens *************/
+@media (max-width: 767px){
+	.col-sm-12{
+		width: 100%;
+	}
+
+}
+
+
+p{
+
+}
+
+h1{
+	text-align: center;
+}
+
+h2{
+
+
+}
