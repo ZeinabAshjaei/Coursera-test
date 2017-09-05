@@ -1,0 +1,81 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #ccf5ff;
+}
+
+#nav-header{
+	border-radius: 0;
+	border: 0;
+	background-color: #80ffdf;
+}
+
+.navbar-brand{
+	padding-top: 12px;
+}
+
+.navbar-brand p{
+	text-transform: uppercase;
+	font-family: 'lora', serif;
+	color: red;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	line-height: 0.75;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+#nav-list a{
+	text-align: center;
+	color: #951C60;
+}
+#nav-list a:hover{
+	background-color: #ffcccc;
+}
+#nav-list a span{
+	text-transform: uppercase;
+	font-size: 1.3em;
+	text-align: center;
+	text-shadow: transparent;
+}
+
+.navbar-header button.navbar-toggle , .navbar-header .icon-bar{
+	border: 1px solid #ffb3b3;
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -35px;
+}
+
+div#chicken-menu, div#beef-menu, div#sushi-menu{
+	border: 1px solid black;
+	border-radius: 3px; 
+	margin-bottom: 15PX;
+	text-align: justify;
+	background-color: #e6faff;
+	margin-right: 20px;
+	margin-left: 20px;
+	width: calc(100% - 40px);
+	overflow: auto;
+
+}
+
+div.section-title{
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.25em;
+	padding: 10px;
+}
+
+#main-title{
+	font-weight: bold;
+	font-size: 1.5em;
+
+}
+
